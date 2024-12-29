@@ -289,9 +289,6 @@
          color: #ccc;
      }
 
-
-
-
      .offers-section {
          display: flex;
          width: 100%;
@@ -655,7 +652,7 @@
      }
 
      /* Responsive Styles */
-     @media (max-width: 768px) {
+     @media  (max-width: 767px) {
          .header nav {
              display: none;
          }
@@ -683,17 +680,23 @@
              font-size: 20px;
          }
 
+         .products{
+            flex-direction: column;
+         }
          .product-card {
              width: 100%;
          }
-
-         .feature-card {
-             max-width: 100%;
+         .features-container{
+            flex-direction: column;
          }
-
+         .feature-card {
+             width: 100%;
+         }
+        .offers-container{
+            flex-direction: column;
+        }
          .offer-card {
              width: 100%;
-             max-width: 400px;
          }
 
          .location-finder h2 {
