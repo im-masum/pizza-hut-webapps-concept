@@ -27,29 +27,30 @@
          padding: 15px 30px;
          background-color: #1e1e1e;
          border-bottom: 2px solid #e50914;
-        }
-        
-        .header .logo {
-            width: 150px;
-            height: 150px;
-            
-        }
-        
-        .header .logo img {
-            width: 100%;
-        }
-        
-        .header nav {
+     }
+
+     .header .logo {
+         width: 150px;
+         height: 150px;
+
+     }
+
+     .header .logo img {
+         width: 100%;
+     }
+
+     .header nav {
          z-index: 4;
          display: inline-flex;
          padding: 10px;
          flex-wrap: wrap;
+         transition: 0.5s;
      }
 
      .header nav a {
          padding: 10px 50px;
          font-size: 1rem;
-         transition: color 0.3s;
+         transition: color 0.5s;
          text-decoration: none;
          color: #ffff;
 
@@ -670,39 +671,45 @@
          #click:checked~.menu-icon i::before {
              content: "\f00d";
          }
-          .header{
-            width: 100%;
-            margin: 20px auto;
-              
-        }
-            .header nav {
-                display: flex;
-                flex-direction: column;
-                position: fixed;
-                margin-left: 30px;
-                top: 220px;
-                left: -100%;
-                width: 90%;
-                background: #ffff;
-                transform: all 0.5s ease;
-                border-radius: 10px;
-            }
-            
-            #click:checked~nav {
-                left: 0%;
-            }
-            .header nav a {
+
+         .header {
+             width: 100%;
+             margin: 20px auto;
+
+         }
+
+         .header nav {
+             display: flex;
+             flex-direction: column;
+             position: fixed;
+             margin-left: 30px;
+             top: 220px;
+             left: -100%;
+             width: 90%;
+             background-color: #fff;
+             transition: all 0.5s ease;
+             border-radius: 10px;
+
+         }
+
+         #click:checked~nav {
+             left: 0%;
+         }
+
+         .header nav a {
              margin: 20px 0;
              width: 50%;
              color: #000;
              border-radius: 8px;
-             transition: .5s;
+             transition: all 0.5s ease;
+
          }
-           .header nav a:hover{
-            background-color: #363030;
-            color: #fff;
-            text-align: center;
-           }
+
+         .header nav a:hover {
+             background-color: #363030;
+             color: #fff;
+             text-align: center;
+         }
 
          .order-btn {
              display: none;
