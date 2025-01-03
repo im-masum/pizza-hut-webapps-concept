@@ -649,7 +649,7 @@
          align-items: center;
          justify-content: center;
          color: #ffffff;
-         font-size: 50px;
+         font-size: 40px;
          text-decoration: none;
          transition: all 0.3s ease;
      }
@@ -685,7 +685,7 @@
              margin-left: 30px;
              top: 220px;
              left: -100%;
-             width: 90%;
+             width: 95%;
              background-color: #fff;
              transition: all 0.5s ease;
              border-radius: 10px;
@@ -809,8 +809,4 @@
          }
      }
 
-     /* @media (min-width: 769px) {
-         .header .menu-icon {
-             display: none;
-         }
-     } */
+      
