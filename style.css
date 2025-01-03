@@ -682,10 +682,10 @@
              display: flex;
              flex-direction: column;
              position: fixed;
-             margin-left: 20px;
+             margin-left: 10px;
              top: 220px;
              left: -100%;
-             width: 93%;
+             width: 95%;
              background-color: #fff;
              transition: all 0.5s ease;
              border-radius: 10px;
@@ -697,17 +697,16 @@
          }
 
          .header nav a {
-             margin: 20px 0;
-             width: 50%;
+             margin: 10px 0;
              color: #000;
              border-radius: 8px;
              transition: all 0.5s ease;
-             font-size: 32px;
+             font-size: 24px;
 
          }
 
          .header nav a:hover {
-             font-size: 1.2rem;
+             font-size: 1rem;
          }
 
          .order-btn {
@@ -807,4 +806,138 @@
          }
      }
 
-      
+     @media (max-width: 990px) and (min-width:768px) {
+         .header {
+             width: 100%;
+             margin: 20px auto;
+
+         }
+
+         .header nav {
+             display: flex;
+             flex-direction: column;
+             position: fixed;
+             margin-left: 10px;
+             top: 220px;
+             left: -100%;
+             width: 95%;
+             background-color: #fff;
+             transition: all 0.5s ease;
+             border-radius: 10px;
+
+         }
+
+         #click:checked~nav {
+             left: 0%;
+         }
+
+         .header nav a {
+             margin: 10px 0;
+             color: #000;
+             border-radius: 8px;
+             transition: all 0.5s ease;
+             font-size: 24px;
+
+         }
+
+         .header nav a:hover {
+             font-size: 1rem;
+         }
+
+         .order-btn {
+             display: none;
+         }
+
+         .header .menu-icon {
+             display: block;
+             cursor: pointer;
+             font-size: 50px;
+         }
+
+         .hero h1 {
+             font-size: 2.5rem;
+         }
+
+         .hero p {
+             font-size: 1rem;
+         }
+
+         .hero .btn {
+             padding: 8px 20px;
+             font-size: 20px;
+         }
+
+         .products {
+             flex-direction: column;
+         }
+
+         .product-card {
+             width: 100%;
+         }
+
+         .features-container {
+             flex-direction: column;
+         }
+
+         .feature-card {
+             width: 100%;
+         }
+
+         .offers-container {
+             flex-direction: column;
+         }
+
+         .offer-card {
+             width: 100%;
+         }
+
+         .location-finder h2 {
+             font-size: 1.75rem;
+         }
+
+         .search-bar {
+             flex-direction: column;
+         }
+
+         .search-bar input {
+             border-radius: 5px 5px 0 0;
+             margin-bottom: 0.5rem;
+         }
+
+         .search-bar button {
+             border-radius: 0 0 5px 5px;
+         }
+
+         .map {
+             height: 300px;
+         }
+
+         .testimonial-container {
+             flex-direction: column;
+             align-items: center;
+         }
+
+         .newsletter {
+             width: 90%;
+             padding: 1rem;
+         }
+
+         .newsletter h2 {
+             font-size: 1.5rem;
+         }
+
+         .newsletter p {
+             font-size: 0.6rem;
+         }
+
+         .footer {
+             flex-direction: column;
+             align-items: center;
+             text-align: center;
+         }
+
+         .footer-column {
+             margin-bottom: 20px;
+         }
+
+     }
