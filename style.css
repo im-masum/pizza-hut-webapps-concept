@@ -833,10 +833,6 @@
 
          }
 
-         #click:checked~nav {
-             left: 0%;
-         }
-
          .header nav a {
              margin: 10px 0;
              color: #000;
@@ -847,7 +843,7 @@
          }
 
          .header nav a:hover {
-             font-size: 1.5rem;
+             font-size: 2.5rem;
          }
 
          .order-btn {
@@ -857,11 +853,11 @@
          .header .menu-icon {
              display: block;
              cursor: pointer;
-             font-size: 50px;
+             font-size: 40px;
          }
 
          .hero h1 {
-             font-size: 2.5rem;
+             font-size: 2.0rem;
          }
 
          .hero p {
