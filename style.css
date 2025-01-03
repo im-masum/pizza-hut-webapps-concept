@@ -682,10 +682,10 @@
              display: flex;
              flex-direction: column;
              position: fixed;
-             margin-left: 30px;
+             margin-left: 20px;
              top: 220px;
              left: -100%;
-             width: 95%;
+             width: 93%;
              background-color: #fff;
              transition: all 0.5s ease;
              border-radius: 10px;
@@ -702,13 +702,12 @@
              color: #000;
              border-radius: 8px;
              transition: all 0.5s ease;
+             font-size: 32px;
 
          }
 
          .header nav a:hover {
-             background-color: #363030;
-             color: #fff;
-             text-align: center;
+             font-size: 1.2rem;
          }
 
          .order-btn {
@@ -717,7 +716,6 @@
 
          .header .menu-icon {
              display: block;
-             font-size: 1rem;
              cursor: pointer;
              font-size: 50px;
          }
