@@ -815,28 +815,16 @@
      @media (max-width: 990px) and (min-width:768px) {
          .header {
              width: 100%;
-             margin: 20px auto;
+             margin: 10px auto;
 
          }
 
          .header nav {
-             display: flex;
-             flex-direction: column;
-             position: fixed;
              margin-left: 10px;
-             top: 220px;
-             left: -100%;
-             width: 95%;
-             background-color: #fff;
-             transition: all 0.5s ease;
-             border-radius: 10px;
-
          }
 
          .header nav a {
              margin: 10px 0;
-             color: #000;
-             border-radius: 8px;
              transition: all 0.5s ease;
              font-size: 24px;
 
