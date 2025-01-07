@@ -940,6 +940,7 @@
 
          .newsletter {
              width: 90%;
+             height: auto;
              padding: 1rem;
          }
 
