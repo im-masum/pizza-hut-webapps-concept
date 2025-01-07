@@ -856,6 +856,9 @@
              padding: 8px 20px;
              font-size: 20px;
          }
+         .featured-products {
+            gap: 20px;
+         }
 
          .products {
              flex-direction: column;
