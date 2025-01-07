@@ -457,6 +457,8 @@
      }
 
      .testimonials {
+         display: flex;
+         flex-direction: column;
          width: 100%;
          padding: 1rem;
          text-align: center;
@@ -471,6 +473,7 @@
      .testimonial-container {
          display: flex;
          width: 100%;
+         height: auto;
          flex-wrap: wrap;
          justify-content: center;
          gap: 20px;
@@ -930,6 +933,7 @@
 
          .testimonial-container {
              flex-direction: column;
+             gap: 20px;
              align-items: center;
          }
 
