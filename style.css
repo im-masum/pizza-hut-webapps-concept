@@ -781,9 +781,14 @@
          .map {
              height: 300px;
          }
+         .testimonials{
+            width: 100%;
+            height: auto;
+         }
 
          .testimonial-container {
              flex-direction: column;
+             gap: 20px;
              align-items: center;
          }
 
